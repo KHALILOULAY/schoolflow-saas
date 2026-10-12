@@ -1,0 +1,33 @@
+{
+  "classes": [
+    { "id": 1, "label": "6A", "capacity": 35, "enrolled": 32 },
+    { "id": 2, "label": "5B", "capacity": 30, "enrolled": 28 },
+    { "id": 3, "label": "4C", "capacity": 28, "enrolled": 26 },
+    { "id": 4, "label": "3A", "capacity": 32, "enrolled": 30 },
+    { "id": 5, "label": "2B", "capacity": 34, "enrolled": 31 }
+  ],
+  "students": [
+    { "id": 1, "name": "Amina Koffi", "className": "6A", "age": 12, "attendance": 96, "parent": "M. Koffi", "status": "Actif" },
+    { "id": 2, "name": "Yves N'Diaye", "className": "5B", "age": 11, "attendance": 89, "parent": "Mme. N'Diaye", "status": "Actif" },
+    { "id": 3, "name": "Sofia Diallo", "className": "4C", "age": 10, "attendance": 91, "parent": "M. Diallo", "status": "Actif" },
+    { "id": 4, "name": "Lamine Diop", "className": "3A", "age": 9, "attendance": 84, "parent": "Mme. Diop", "status": "Évaluation" },
+    { "id": 5, "name": "Nadia Toure", "className": "6A", "age": 12, "attendance": 94, "parent": "M. Toure", "status": "Actif" },
+    { "id": 6, "name": "Koffi Mensah", "className": "2B", "age": 8, "attendance": 88, "parent": "Mme. Mensah", "status": "En attente" },
+    { "id": 7, "name": "Rita Dossou", "className": "5B", "age": 11, "attendance": 92, "parent": "M. Dossou", "status": "Actif" },
+    { "id": 8, "name": "Moussa Bah", "className": "4C", "age": 10, "attendance": 86, "parent": "Mme. Bah", "status": "Actif" }
+  ],
+  "teachers": [
+    { "id": 1, "name": "Mme. Sylvie Martin", "subject": "Mathématiques", "workload": "24 h/semaine", "availability": "Disponible" },
+    { "id": 2, "name": "M. Jean Okafor", "subject": "Sciences", "workload": "21 h/semaine", "availability": "Disponible" },
+    { "id": 3, "name": "Mme. Awa Sarr", "subject": "Français", "workload": "26 h/semaine", "availability": "En cours" },
+    { "id": 4, "name": "M. Kévin Mossi", "subject": "Informatique", "workload": "20 h/semaine", "availability": "Disponible" }
+  ],
+  "fees": [
+    { "id": 1, "student": "Amina Koffi", "className": "6A", "amount": 75000, "status": "Payé", "dueDate": "12 mai 2026" },
+    { "id": 2, "student": "Yves N'Diaye", "className": "5B", "amount": 90000, "status": "En retard", "dueDate": "18 mai 2026" },
+    { "id": 3, "student": "Sofia Diallo", "className": "4C", "amount": 68000, "status": "Payé", "dueDate": "14 mai 2026" },
+    { "id": 4, "student": "Lamine Diop", "className": "3A", "amount": 82000, "status": "À venir", "dueDate": "26 mai 2026" },
+    { "id": 5, "student": "Nadia Toure", "className": "6A", "amount": 76000, "status": "Payé", "dueDate": "11 mai 2026" },
+    { "id": 6, "student": "Koffi Mensah", "className": "2B", "amount": 61000, "status": "En retard", "dueDate": "22 mai 2026" }
+  ]
+}
